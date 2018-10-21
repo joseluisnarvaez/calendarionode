@@ -10,7 +10,7 @@
 		scheduler.config.touch_drag = false
 		scheduler.config.quick_info_detached = false;;
 		scheduler.init('scheduler_here',new Date(),"month");
-		scheduler.load("http://localhost:3000/eventos", "json")
+		scheduler.load("/eventos", "json")
 
 
 	}
